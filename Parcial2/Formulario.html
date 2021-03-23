@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Resources/bootstrap4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+      <div class="container">
+            <form class="form">
+       
+                  <div class="row">
+                        <div class="form-group col-sm-12 col-md-8 col-lg-6">
+                              <label for="nomCliente" class=" control-label">Nombre completo:</label>
+                              <input id="nomCliente" type="text" class="form-control" placeholder="Nombre ApellidoP ApellidoM"/>
+                        </div>
+                  
+                        <div class="form-group col-sm-12 col-md-2 col-lg-2">
+                              <label for="sexo"> Sexo<br> 
+                                    <input type="radio" id="sexom"/>Masculino
+                              </label>
+                        
+                              <label for="sexo">
+                                    <input type="radio" id="sexom"/>Femenino
+                              </label>                        
+                        </div>
+
+                        <div class="form-group col-sm-12 col-md-5 col-lg-4">
+                              <label for="correo">Correo electronico:</label>
+                              <input id="Correo" type="text" class="form-control" placeholder="Usuario@dominio.com"/>
+                        </div>
+                  </div>
+        
+                  <div class="row">
+                        <div class="form-group col-sm-12 col-md-8 col-lg-6">
+                              <label for="dirCliente">Direccion:</label>
+                              <input id="dirCliente" type="text" class="form-control" placeholder="Calle Numero Colonia y Codigo Postal"/>
+                        </div>
+                        <div class="form-group col-sm-12 col-md-4 col-lg-6">
+                              <label for="telCliente">Telefono:</label>
+                              <input id="telCliente" type="text" class="form-control" placeholder="(Lada)-Numero "/>
+                        </div>
+                   </div>
+        
+        
+                    <div class="row">
+                        <div class="form-group col-sm-6 col-md-8 col-lg-6">
+                                <label for="ciudad">Ciudad:</label>
+                              <input id="ciudad" type="text" class="form-control" placeholder="Nombre de la Ciudad"/>
+                        </div>
+
+                        <div class="form-group col-sm-6 col-md-4 col-lg-12">
+                              <label for="estado">Seleccione una opción:</label>
+                              <select name="estados" id="opcion" class="Form-control">
+                                    <option value="Aguascalientes">Aguascalientes</option>
+                                    <option value="Baja California">Baja California</option>
+                                    <option value="Baja California Sur">Baja California Sur</option>
+                                    <option value="Tamaulipas">Tamaulipas</option>
+                                    <option value="Coahuila">Coahuila</option>
+                                    <option value="Chiapas">Chiapas</option>
+                                    <option value="Colima">Colima</option>
+                                    <option value="Guerrero">Guerrero</option>
+                                    <option value="Chihuahua">Chihuahua</option>
+                                    <option value="Sonora">Sonora</option>
+                                    <option value="Guadalajara">Guadalajara</option>
+                                    <option value="Veracruz">Veracruz</option>
+                              </select>
+                        </div>
+                  </div>
+        
+        
+              <button type="submit" class="btn btn-primary">Enviar</button>
+              <button type="reset" class="btn btn-default">Reset</button>
+            </form>
+      </div>
+</body>
+</html>
