@@ -23,7 +23,7 @@ function validate(){
 
     } else if(un=="Antonio" && pass=="12345678")
     {   
-        alert("Iniciando Sesion...");
+        confirm("Iniciando Sesion...!!!!!!!!!!");
 
     } else{
         alert("Ingrese datos validos!")
