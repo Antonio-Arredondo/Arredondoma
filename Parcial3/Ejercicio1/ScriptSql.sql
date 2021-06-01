@@ -1,5 +1,5 @@
-create database Arredondoma
-use Arredondoma
+create database Arredondoma;
+use Arredondoma;
 
 create table tabUsuarios
 (
@@ -13,16 +13,16 @@ create table tabUsuarios
 );
 
 insert into tabUsuarios(nombre,apPaterno,apMaterno,usuario,contrasena)
-values('Antonio','Arredondo','Martinez','Usuario1','Contrasena1',)
+values('Antonio','Arredondo','Martinez','Usuario1','Contrasena1');
 
 insert into tabUsuarios(nombre,apPaterno,apMaterno,usuario,contrasena)
-values('Alondra','Suazo','Alvardo','Usuario2','Contrasena2',)
+values('Alondra','Suazo','Alvardo','Usuario2','Contrasena2');
 
 insert into tabUsuarios(nombre,apPaterno,apMaterno,usuario,contrasena)
-values('Efrain','Arredondo','Suazo','Usuario3','Contrasena3',)
+values('Efrain','Arredondo','Suazo','Usuario3','Contrasena3');
 
 insert into tabUsuarios(nombre,apPaterno,apMaterno,usuario,contrasena)
-values('Antonio','Arredondo','Suazo','Usuario4','Contrasena4',)
+values('Antonio','Arredondo','Suazo','Usuario4','Contrasena4');
 
 insert into tabUsuarios(nombre,apPaterno,apMaterno,usuario,contrasena)
-values('Luis','Arredondo','Martinez','Usuario5','Contrasena5',)
+values('Luis','Arredondo','Martinez','Usuario5','Contrasena5');
