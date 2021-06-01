@@ -16,6 +16,9 @@ insert into tabUsuarios(nombre,apPaterno,apMaterno,usuario,contrasena)
 values('Antonio','Arredondo','Martinez','Usuario1','Contrasena1');
 
 insert into tabUsuarios(nombre,apPaterno,apMaterno,usuario,contrasena)
+values('Jose','Arredondo','Ramirez','Usuario0','Contrasena');
+
+insert into tabUsuarios(nombre,apPaterno,apMaterno,usuario,contrasena)
 values('Alondra','Suazo','Alvardo','Usuario2','Contrasena2');
 
 insert into tabUsuarios(nombre,apPaterno,apMaterno,usuario,contrasena)
