@@ -1,0 +1,19 @@
+/*.row {
+    background-color: transparent;
+}
+*/
+body {
+    background-image: url("https://media.istockphoto.com/photos/vitamins-supplements-and-minerals-dual-layer-tablets-pills-and-amber-picture-id956785546");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.row {
+    font-family: 'Courier New', Courier, monospace;
+}
